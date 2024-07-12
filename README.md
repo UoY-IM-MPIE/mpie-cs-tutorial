@@ -155,7 +155,7 @@ int AddTwoNumbers(int a, int b)
 }
 ```
 
-The following function has been written by a programme who doesn't know that you need to specify the types of parameters in C#. Can you fix it?
+The following function has been written by a programmer who doesn't know that you need to specify the types of parameters in C#. Can you fix it?
 
 ```csharp
 void PrintWordThisManyTimes(word, times) 
@@ -176,6 +176,7 @@ We can declare classes in C# in quite a similar way to JavaScript. However, ther
 class Money
 {
     #amount = 0;
+    
     constructor(amount) 
     {
         this.#amount = amount;
@@ -194,6 +195,7 @@ In C# you would write the same class as this:
 class Money
 {
     private int amount = 0;
+    
     public Money(int amount) 
     {
         this.amount = amount;
