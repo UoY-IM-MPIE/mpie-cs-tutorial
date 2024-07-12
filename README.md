@@ -220,6 +220,7 @@ class Person
 {
     #name = "";
     #age = 0;
+    
     constructor(name, age) 
     {
         this.#name = name;
