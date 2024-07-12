@@ -75,7 +75,7 @@ JavaScript is a weakly-typed language. This means you can actually change the ty
 
 ```javascript
 let myVariable = 3
-myVariable += " is a magic number"
+myVariable = myVariable + " is a magic number"
 ```
 
 This code would work in JavaScript, but it wouldn't work in C#. In C# you have to be very explicit about the types of data you are working with. This can be a bit annoying at first, but it actually makes your code more robust and less error-prone.
