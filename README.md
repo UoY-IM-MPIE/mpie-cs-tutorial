@@ -80,7 +80,7 @@ myVariable = myVariable + " is a magic number"
 
 This code would work in JavaScript, but it wouldn't work in C#. In C# you have to be very explicit about the types of data you are working with. This can be a bit annoying at first, but it actually makes your code more robust and less error-prone.
 
-The following C# code has been written by a programme who doesn't realise that the language is strongly-typed. Can you fix the error?
+The following C# code has been written by a programmer who doesn't realise that the language is strongly-typed. Can you fix the error?
 
 ```csharp
 int myVariable = 3;
