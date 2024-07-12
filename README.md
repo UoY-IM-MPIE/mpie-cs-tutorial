@@ -96,7 +96,7 @@ In C# you have to explicitly say what type of data a function returns. This is d
 ```javascript
 function getMyName() 
 {
-    return "Jon";
+    return "Sarah";
 }
 ```
 
