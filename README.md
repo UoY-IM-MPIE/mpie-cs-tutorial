@@ -78,7 +78,7 @@ let myVariable = 3
 myVariable = myVariable + " is a magic number"
 ```
 
-This code would work in JavaScript, but it wouldn't work in C#. In C# you have to be very explicit about the types of data you are working with. This can be a bit annoying at first, but it actually makes your code more robust and less error-prone.
+This code would work in JavaScript, but it wouldn't work in C#. In C# you have to be very explicit about the types of data you are working with. If you declare a variable as an integer, for example, you can't change it later. That variable will be an integer forever. If you want then store a string that has a sentence with that integer in it (as in the above example) you need to make a new string variable as well. This can be a bit annoying at first, but it actually makes your code more robust and less error-prone.
 
 The following C# code has been written by a programmer who doesn't realise that the language is strongly-typed. Can you fix the error?
 
